@@ -43,8 +43,8 @@ notebooks/reproduce.ipynb   Colab notebook
 ## Installation
 
 ```bash
-git clone https://github.com/<ORG>/<REPO>.git
-cd <REPO>
+git clone https://github.com/engranas/DWT-Temporal-Semantic-Analysis.git
+cd  DWT-Temporal-Semantic-Analysis
 pip install -r requirements.txt
 ```
 
