@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Temporal Semantic Analysis of Arabic Mental-Health Discourse using Discrete Wavelet Transform"
+authors:
+  - family-names: Salama
+    given-names: Rana Aref
+  - family-names: Alqahtani
+    given-names: Amal Abdullah
+  - family-names: Diab
+    given-names: Mona T.
+  - family-names: Youssef
+    given-names: Abdou
+preferred-citation:
+  type: conference-paper
+  title: "Temporal Semantic Analysis of Arabic Mental-Health Discourse using Discrete Wavelet Transform"
+  authors:
+    - family-names: Salama
+      given-names: Rana Aref
+    - family-names: Alqahtani
+      given-names: Amal Abdullah
+    - family-names: Diab
+      given-names: Mona T.
+    - family-names: Youssef
+      given-names: Abdou
+  collection-title: "Proceedings of the First Workshop on Multimodal, Multilingual, and Multicultural Mental Health and Psychotherapy (MultiPsyche)"
+  conference:
+    name: "AACL-IJCNLP 2026"
+  year: 2026
