@@ -1,0 +1,74 @@
+analysis,measure,value,two_sided_p,n
+Sample,users (BPD / bipolar),22 / 13,,
+Sample,trajectory length in bins (min-max),8-24,,
+Energy,median A2 energy,0.203,,35
+Energy,median D2 energy,0.303,,35
+Energy,median D1 energy,0.489,,35
+Energy,median detail energy (D1+D2),0.797,,35
+Semantic gain,median user-level gain D1,0.053,,
+Semantic gain,median user-level gain D2,0.041,,
+Semantic gain,"Wilcoxon D1 > D2, one-sided p",0.002,0.004,35
+Condition comparison,A2 energy median BPD / bipolar,0.191 / 0.210,,
+Condition comparison,"A2 energy, Mann-Whitney p",0.550,,35
+Condition comparison,D2 energy median BPD / bipolar,0.277 / 0.341,,
+Condition comparison,"D2 energy, Mann-Whitney p",0.046,,35
+Condition comparison,D1 energy median BPD / bipolar,0.510 / 0.417,,
+Condition comparison,"D1 energy, Mann-Whitney p",0.063,,35
+Condition comparison,"A2 energy, Holm-adjusted p",0.550,,
+Condition comparison,"D2 energy, Holm-adjusted p",0.137,,
+Condition comparison,"D1 energy, Holm-adjusted p",0.137,,
+Change measures,median rho D1 vs adjacent cosine change,0.848,,
+Change measures,median rho D1 vs RBF-MMD,0.367,,
+Change measures,median top-3 overlap D1 vs RBF-MMD,0.667,,
+Change measures,median rho D2 vs adjacent cosine change,0.316,,
+Change measures,median rho D2 vs RBF-MMD,0.524,,
+Change measures,median top-3 overlap D2 vs RBF-MMD,0.667,,
+Change measures,boundaries per user (min / median / max),5 / 9 / 21,,
+Chronological structure,"mean detail energy, observed",0.781,,
+Chronological structure,"mean detail energy, shuffled",0.832,,
+Chronological structure,median within-user difference,-0.046,,
+Chronological structure,users with lower observed energy,28/35,,
+Chronological structure,"Wilcoxon observed < shuffled, one-sided p",4.36e-06,8.71e-06,35
+Chronological structure,"sign test, one-sided p",0.000254,0.000508,35
+Chronological structure,users significant after BH-FDR (BPD / bipolar),4 (3 / 1),,
+Cross-scale distinctiveness,"mean D1-D2 profile distance, observed",0.078,,35
+Cross-scale distinctiveness,"mean D1-D2 profile distance, permuted",0.039,,
+Cross-scale distinctiveness,permutation p,0.000999,,
+Cross-scale distinctiveness,median Jaccard D1-D2,0.091,,
+Cross-scale distinctiveness,median lexical distinctiveness,0.909,,
+High-gain vs control,events (high-gain / control),303 / 303,,
+High-gain vs control,D1 gain_coherence: median control,0.489,,
+High-gain vs control,D1 gain_coherence: median high-gain,0.627,,
+High-gain vs control,"D1 gain_coherence: Wilcoxon high > control, one-sided p",8.93e-09,1.79e-08,35
+High-gain vs control,D2 gain_coherence: median control,0.466,,
+High-gain vs control,D2 gain_coherence: median high-gain,0.581,,
+High-gain vs control,"D2 gain_coherence: Wilcoxon high > control, one-sided p",3.92e-06,7.84e-06,35
+High-gain vs control,D1 grounding: median control,0.640,,
+High-gain vs control,D1 grounding: median high-gain,0.691,,
+High-gain vs control,"D1 grounding: Wilcoxon high > control, one-sided p",4.28e-07,8.57e-07,35
+High-gain vs control,D2 grounding: median control,0.617,,
+High-gain vs control,D2 grounding: median high-gain,0.662,,
+High-gain vs control,"D2 grounding: Wilcoxon high > control, one-sided p",0.003,0.006,35
+High-gain vs control,D1 semantic_shift: median control,0.045,,
+High-gain vs control,D1 semantic_shift: median high-gain,0.062,,
+High-gain vs control,"D1 semantic_shift: Wilcoxon high > control, one-sided p",0.000866,0.002,35
+High-gain vs control,D2 semantic_shift: median control,0.042,,
+High-gain vs control,D2 semantic_shift: median high-gain,0.048,,
+High-gain vs control,"D2 semantic_shift: Wilcoxon high > control, one-sided p",0.364,0.728,35
+High-gain vs control (unique D2 events),events (high-gain / control),88 / 88,,
+High-gain vs control (unique D2 events),D2 gain_coherence: median control,0.468,,
+High-gain vs control (unique D2 events),D2 gain_coherence: median high-gain,0.581,,
+High-gain vs control (unique D2 events),"D2 gain_coherence: Wilcoxon high > control, one-sided p",8.03e-06,1.61e-05,35
+High-gain vs control (unique D2 events),D2 grounding: median control,0.617,,
+High-gain vs control (unique D2 events),D2 grounding: median high-gain,0.662,,
+High-gain vs control (unique D2 events),"D2 grounding: Wilcoxon high > control, one-sided p",0.005,0.011,35
+High-gain vs control (unique D2 events),D2 semantic_shift: median control,0.043,,
+High-gain vs control (unique D2 events),D2 semantic_shift: median high-gain,0.047,,
+High-gain vs control (unique D2 events),"D2 semantic_shift: Wilcoxon high > control, one-sided p",0.358,0.716,35
+Case study,user,U_9aa3f03e41,,
+Case study,D2 vs RBF-MMD rho,0.691,,13
+Case study,D2 vs RBF-MMD p,0.009,,
+Case study,D1 vs adjacent cosine change rho,0.341,,
+Case study,maximum RBF-MMD,0.639,,
+Case study,highest-gain D2 event: mean gain,0.052,,
+Case study,highest-gain D2 event: coherence,0.889,,

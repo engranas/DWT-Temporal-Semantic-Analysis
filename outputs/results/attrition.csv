@@ -1,0 +1,8 @@
+stage,posts,users
+Full corpus,9582,1289
+BPD- and bipolar-related communities,8992,1179
+"Valid timestamp, de-duplicated",8992,1179
+Cross-community users removed,7965,1145
+Non-empty after cleaning,7944,1140
+>= 20 posts and >= 6 active bins,4972,65
+Contiguous trajectory >= 8 bins,3910,35
